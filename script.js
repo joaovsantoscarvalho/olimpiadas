@@ -63,7 +63,7 @@ function mostraResultado(){
 }
 
 function podiumMedalhas(){
-    caixaPrincipal.style.backgroundImage = "url('img/bronze)"
+    caixaPrincipal.style.backgroundImage = "url('img/bronze.png')";
 }
 
 //crie uma função podiumMedalhas
