@@ -21,6 +21,9 @@ let historiaFinal = "";
 //Assim como a variável atual (acima)
 //Crie uma variável com o nome pontos que inicie com 0
 
+let pontos = 0;
+let pontosAtual;
+let pontosFinal = "";
 
 function mostraPergunta(){
     if(atual >= perguntas[escolha].length){
@@ -57,6 +60,10 @@ function mostraResultado(){
     caixaAlternativas.textContent = "";
     // chame a função podiumMedalhas aqui
     
+}
+
+function podiumMedalhas(){
+    caixaPrincipal.style.backgroundImage = "url('img/bronze)"
 }
 
 //crie uma função podiumMedalhas
